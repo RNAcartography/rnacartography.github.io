@@ -1,4 +1,4 @@
-=Project: RNA Cartography Lab Multipage Template=
+==Project: RNA Cartography Lab Multipage Template==
 
 Pages: index.html, about.html, research.html, people.html, affiliates.html, blog.html, partners.html, resources.html, contact.html
 
