@@ -1,0 +1,31 @@
+{
+  "name": "rna-cartography-landing",
+  "version": "1.0.0",
+  "description": "Ultra-minimal landing page for RNA Cartography with spiral character animations",
+  "main": "index.html",
+  "scripts": {
+    "build": "python3 build.py",
+    "dev": "python3 build.py && python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "watch": "chokidar 'src/**/*' 'content/**/*' -c 'python3 build.py'"
+  },
+  "keywords": [
+    "rna",
+    "cartography",
+    "landing-page",
+    "gsap",
+    "animation",
+    "spiral",
+    "molecular-biology"
+  ],
+  "author": "RNA Cartography Team",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/rnacartography_site"
+  },
+  "homepage": "https://rnacartography.openemage.org"
+}
